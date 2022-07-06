@@ -105,7 +105,7 @@ for (let i = 1; i < 11; i++){
 */
 
 //CODE HERE
-for (let i = 10; i > 0; i--){
+for (let i = 10; i >= 0; i--){
   console.log(i)
 }
 
@@ -119,7 +119,12 @@ let passingScore = 7;
 */
 
 //CODE HERE
-
+for (let score = 0; score >= passingScore; score++)
+  if (score >= passingScore - 1) {
+    console.log(` $[score] Your score is not high enough`)
+  } else {
+    console.log("You Passed!")
+  }
 ////////// INTERMEDIATE PROBLEMS //////////
 
 ////////// PROBLEM 9 //////////
