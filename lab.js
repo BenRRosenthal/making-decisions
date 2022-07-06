@@ -85,7 +85,9 @@ let rain = true;
 */
 
 //CODE HERE
-
+for (let i = 0; i < 11; i++){
+  console.log(i)
+}
 ////////// PROBLEM 6 //////////
 
 /*
@@ -93,7 +95,9 @@ let rain = true;
 */
 
 //CODE HERE
-
+for (let i = 1; i < 11; i++){
+  console.log(i)
+}
 ////////// PROBLEM 7 //////////
 
 /*
@@ -101,7 +105,9 @@ let rain = true;
 */
 
 //CODE HERE
-
+for (let i = 10; i > 0; i--){
+  console.log(i)
+}
 
 ////////// PROBLEM 8 //////////
 
