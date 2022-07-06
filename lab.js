@@ -119,12 +119,13 @@ let passingScore = 7;
 */
 
 //CODE HERE
-for (let score = 0; score >= passingScore; score++)
-  if (score >= passingScore - 1) {
-    console.log(` $[score] Your score is not high enough`)
-  } else {
-    console.log("You Passed!")
-  }
+// for (score; score < passingScore; score++) {
+//     console.log("Your score is not high enough")
+//   }
+while (score < passingScore) {
+  console.log("Your score is not high enough")
+  score++
+}
 ////////// INTERMEDIATE PROBLEMS //////////
 
 ////////// PROBLEM 9 //////////
@@ -135,6 +136,10 @@ for (let score = 0; score >= passingScore; score++)
 */
 
 //CODE HERE
+let changeMyMind = true
+if (changeMyMind === true){
+  
+}
 
 ////////// PROBLEM 10 //////////
 // Using the "not" operator (!), change the current value of changeMyMind to true (it should currently be set to false due to the if-else statement in Problem 9). After you change the value of changeMyMind, console.log it's new value (it should now read true).
@@ -146,6 +151,7 @@ for (let score = 0; score >= passingScore; score++)
 ////////// PROBLEM 11 //////////
 
 let z = 5;
+
 // Create a while loop that continues to run while z is greater than 0. Within the while loop, log a countdown from the value of z to 1. Once you have logged the countdown, make sure you decrement z by 1. If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
 
 //CODE HERE
