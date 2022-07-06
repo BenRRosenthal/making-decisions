@@ -40,12 +40,14 @@ var brittanisBirthYear = 1986;
   Using an if statement and a comparison operator, create code that will check if Amy and Brittani were born in the same year. If they were, console.log 'Amy & Brittani were born in the same year'. If they were not, console.log 'Amy & Brittani were not born in the same year'
 */
 
+
+//CODE HERE
+
 if (amysBirthYear === brittanisBirthYear) {
   console.log('Amy & Brittani were born in the same year!')
 } else {
   console.log('Amy & Brittani were not born in the same year.')
 }
-//CODE HERE
 
 ////////// PROBLEM 4 //////////
 
@@ -58,6 +60,23 @@ let rain = true;
 */
 
 //CODE HERE
+  if (temperature > 80 && rain === true) {
+    console.log("Wear a t-shirt but don't forget your umbrella")
+  } else if (temperature > 60 && tempature < 80 && rain === true) {
+    console.log("wear your rain-jacket.")
+  } else if (temperature < 60 && rain === true) {
+    console.log("Wear a jacket and bring your umbrella.")
+  } else if (temperature > 80 && rain === false) {
+    console.log("Wear your t-shirt and forget the umbrella.")
+  } else if (temperature > 60 && tempature < 80 && rain === false) {
+    console.log("Wear a sweatshirt it may get chilly.")
+  } else if (temperature > 60 && rain === false) {
+    console.log("Wear a real jacket it is cold outside")
+  } else {
+    console.log("try a different input")
+  }
+
+
 
 ////////// PROBLEM 5 //////////
 
